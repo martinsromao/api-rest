@@ -1,0 +1,20 @@
+{
+  "name": "api-res",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "author": "ronivelton martins",
+  "license": "ISC",
+  "description": "api",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "tsx": "^4.19.3"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "typescript": "^5.8.2",
+    "zod": "^3.24.2"
+  }
+}
